@@ -10,5 +10,5 @@ Rails.application.routes.draw do
 #------------------------------------------------------------------------#
 
 root 'pages#home'   # <action#controller>
-
+get 'about', to: 'pages#about' #get request to the about age 
 end
